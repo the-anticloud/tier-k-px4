@@ -1,0 +1,8 @@
+# Build & Test — K_PX4
+
+```bash
+git clone https://github.com/PX4/PX4-Autopilot
+cd k-px4
+pip install -e .[dev]
+pytest tests/
+```

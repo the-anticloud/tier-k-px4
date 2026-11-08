@@ -1,0 +1,277 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:869ab127-8a34-5b5e-a1c9-2a88770c03ee",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:48:17Z",
+    "component": {
+      "type": "application",
+      "name": "K_PX4",
+      "version": "f20ec45f7f79",
+      "bom-ref": "pkg:generic/anticloud/K_PX4@f20ec45f7f79",
+      "purl": "pkg:generic/anticloud/K_PX4@f20ec45f7f79",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "f20ec45f7f797ded0769c75eb42e65950b33f022"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/PX4/PX4-Autopilot"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "Python3",
+      "version": "unspecified",
+      "purl": "pkg:generic/Python3",
+      "bom-ref": "native/Python3@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pymavlink",
+      "version": ">=2.4.42",
+      "purl": "pkg:pypi/pymavlink@2.4.42",
+      "bom-ref": "pypi/pymavlink@>=2.4.42"
+    },
+    {
+      "type": "library",
+      "name": "pyserial",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pyserial",
+      "bom-ref": "pypi/pyserial@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "MAVSDK",
+      "version": "unspecified",
+      "purl": "pkg:generic/MAVSDK",
+      "bom-ref": "native/MAVSDK@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Threads",
+      "version": "unspecified",
+      "purl": "pkg:generic/Threads",
+      "bom-ref": "native/Threads@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "gz-transport",
+      "version": "unspecified",
+      "purl": "pkg:generic/gz-transport",
+      "bom-ref": "native/gz-transport@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "gz-sim",
+      "version": "unspecified",
+      "purl": "pkg:generic/gz-sim",
+      "bom-ref": "native/gz-sim@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "gz-sensors",
+      "version": "unspecified",
+      "purl": "pkg:generic/gz-sensors",
+      "bom-ref": "native/gz-sensors@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "gz-plugin",
+      "version": "unspecified",
+      "purl": "pkg:generic/gz-plugin",
+      "bom-ref": "native/gz-plugin@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "PackageName",
+      "version": "unspecified",
+      "purl": "pkg:generic/PackageName",
+      "bom-ref": "native/PackageName@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "OpenCV",
+      "version": "unspecified",
+      "purl": "pkg:generic/OpenCV",
+      "bom-ref": "native/OpenCV@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "PkgConfig",
+      "version": "unspecified",
+      "purl": "pkg:generic/PkgConfig",
+      "bom-ref": "native/PkgConfig@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "GSTREAMER",
+      "version": "unspecified",
+      "purl": "pkg:generic/GSTREAMER",
+      "bom-ref": "native/GSTREAMER@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "GSTREAMER_APP",
+      "version": "unspecified",
+      "purl": "pkg:generic/GSTREAMER_APP",
+      "bom-ref": "native/GSTREAMER_APP@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Protobuf",
+      "version": "unspecified",
+      "purl": "pkg:generic/Protobuf",
+      "bom-ref": "native/Protobuf@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ament_cmake",
+      "version": "unspecified",
+      "purl": "pkg:generic/ament_cmake",
+      "bom-ref": "native/ament_cmake@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rclcpp",
+      "version": "unspecified",
+      "purl": "pkg:generic/rclcpp",
+      "bom-ref": "native/rclcpp@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "px4_msgs",
+      "version": "unspecified",
+      "purl": "pkg:generic/px4_msgs",
+      "bom-ref": "native/px4_msgs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "px4_msgs_old",
+      "version": "unspecified",
+      "purl": "pkg:generic/px4_msgs_old",
+      "bom-ref": "native/px4_msgs_old@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "std_msgs",
+      "version": "unspecified",
+      "purl": "pkg:generic/std_msgs",
+      "bom-ref": "native/std_msgs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ament_lint_auto",
+      "version": "unspecified",
+      "purl": "pkg:generic/ament_lint_auto",
+      "bom-ref": "native/ament_lint_auto@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ament_cmake_gtest",
+      "version": "unspecified",
+      "purl": "pkg:generic/ament_cmake_gtest",
+      "bom-ref": "native/ament_cmake_gtest@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rosidl_default_generators",
+      "version": "unspecified",
+      "purl": "pkg:generic/rosidl_default_generators",
+      "bom-ref": "native/rosidl_default_generators@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "builtin_interfaces",
+      "version": "unspecified",
+      "purl": "pkg:generic/builtin_interfaces",
+      "bom-ref": "native/builtin_interfaces@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "@red-asuka/vitepress-plugin-tabs",
+      "version": "0.0.4",
+      "purl": "pkg:npm/@red-asuka/vitepress-plugin-tabs@0.0.4",
+      "bom-ref": "npm/@red-asuka/vitepress-plugin-tabs@0.0.4"
+    },
+    {
+      "type": "library",
+      "name": "lite-youtube-embed",
+      "version": "^0.3.4",
+      "purl": "pkg:npm/lite-youtube-embed@^0.3.4",
+      "bom-ref": "npm/lite-youtube-embed@^0.3.4"
+    },
+    {
+      "type": "library",
+      "name": "markdown-it-mathjax3",
+      "version": "^4.3.2",
+      "purl": "pkg:npm/markdown-it-mathjax3@^4.3.2",
+      "bom-ref": "npm/markdown-it-mathjax3@^4.3.2"
+    },
+    {
+      "type": "library",
+      "name": "medium-zoom",
+      "version": "^1.1.0",
+      "purl": "pkg:npm/medium-zoom@^1.1.0",
+      "bom-ref": "npm/medium-zoom@^1.1.0"
+    },
+    {
+      "type": "library",
+      "name": "open-editor",
+      "version": "^5.0.0",
+      "purl": "pkg:npm/open-editor@^5.0.0",
+      "bom-ref": "npm/open-editor@^5.0.0"
+    },
+    {
+      "type": "library",
+      "name": "vitepress",
+      "version": "^1.6.3",
+      "purl": "pkg:npm/vitepress@^1.6.3",
+      "bom-ref": "npm/vitepress@^1.6.3"
+    },
+    {
+      "type": "library",
+      "name": "vp-dynamic-nav",
+      "version": "0.1.0",
+      "purl": "pkg:npm/vp-dynamic-nav@0.1.0",
+      "bom-ref": "npm/vp-dynamic-nav@0.1.0"
+    },
+    {
+      "type": "library",
+      "name": "vue3-tabs-component",
+      "version": "^1.3.7",
+      "purl": "pkg:npm/vue3-tabs-component@^1.3.7",
+      "bom-ref": "npm/vue3-tabs-component@^1.3.7"
+    },
+    {
+      "type": "library",
+      "name": "prettier",
+      "version": "^3.8.3",
+      "purl": "pkg:npm/prettier@^3.8.3",
+      "bom-ref": "npm/prettier@^3.8.3"
+    },
+    {
+      "type": "library",
+      "name": "markdown_link_checker_sc",
+      "version": "^0.0.145",
+      "purl": "pkg:npm/markdown_link_checker_sc@^0.0.145",
+      "bom-ref": "npm/markdown_link_checker_sc@^0.0.145"
+    }
+  ]
+}
